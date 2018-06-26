@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0FC51C20E21972008CC96A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC51B20E21972008CC96A /* AppDelegate.m */; };
+		1A0FC51F20E21972008CC96A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC51E20E21972008CC96A /* ViewController.m */; };
+		1A0FC52420E21975008CC96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0FC52320E21975008CC96A /* Assets.xcassets */; };
+		1A0FC52A20E21975008CC96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC52920E21975008CC96A /* main.m */; };
+		1A0FC53420E21975008CC96A /* SortDragListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC53320E21975008CC96A /* SortDragListViewTests.m */; };
+		1A0FC53F20E21975008CC96A /* SortDragListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC53E20E21975008CC96A /* SortDragListViewUITests.m */; };
+		1A0FC55020E2227F008CC96A /* EditListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC54F20E2227F008CC96A /* EditListCell.m */; };
+		1A0FC55320E22385008CC96A /* UIView+CreateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC55120E22385008CC96A /* UIView+CreateUtils.m */; };
+		1A0FC55620E22C83008CC96A /* SortDragVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC55520E22C83008CC96A /* SortDragVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0FC53020E21975008CC96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0FC50F20E21972008CC96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0FC51620E21972008CC96A;
+			remoteInfo = SortDragListView;
+		};
+		1A0FC53B20E21975008CC96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0FC50F20E21972008CC96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0FC51620E21972008CC96A;
+			remoteInfo = SortDragListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0FC51720E21972008CC96A /* SortDragListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortDragListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0FC51A20E21972008CC96A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A0FC51B20E21972008CC96A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A0FC51D20E21972008CC96A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A0FC51E20E21972008CC96A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A0FC52320E21975008CC96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0FC52820E21975008CC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0FC52920E21975008CC96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0FC52F20E21975008CC96A /* SortDragListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortDragListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0FC53320E21975008CC96A /* SortDragListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDragListViewTests.m; sourceTree = "<group>"; };
+		1A0FC53520E21975008CC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0FC53A20E21975008CC96A /* SortDragListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortDragListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0FC53E20E21975008CC96A /* SortDragListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDragListViewUITests.m; sourceTree = "<group>"; };
+		1A0FC54020E21975008CC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0FC54E20E2227F008CC96A /* EditListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditListCell.h; sourceTree = "<group>"; };
+		1A0FC54F20E2227F008CC96A /* EditListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditListCell.m; sourceTree = "<group>"; };
+		1A0FC55120E22385008CC96A /* UIView+CreateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CreateUtils.m"; sourceTree = "<group>"; };
+		1A0FC55220E22385008CC96A /* UIView+CreateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CreateUtils.h"; sourceTree = "<group>"; };
+		1A0FC55420E22C83008CC96A /* SortDragVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortDragVC.h; sourceTree = "<group>"; };
+		1A0FC55520E22C83008CC96A /* SortDragVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDragVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0FC51420E21972008CC96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC52C20E21975008CC96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC53720E21975008CC96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0FC50E20E21972008CC96A = {
+			isa = PBXGroup;
+			children = (
+				1A0FC51920E21972008CC96A /* SortDragListView */,
+				1A0FC53220E21975008CC96A /* SortDragListViewTests */,
+				1A0FC53D20E21975008CC96A /* SortDragListViewUITests */,
+				1A0FC51820E21972008CC96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0FC51820E21972008CC96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC51720E21972008CC96A /* SortDragListView.app */,
+				1A0FC52F20E21975008CC96A /* SortDragListViewTests.xctest */,
+				1A0FC53A20E21975008CC96A /* SortDragListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0FC51920E21972008CC96A /* SortDragListView */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC54C20E22236008CC96A /* VC */,
+				1A0FC54D20E22236008CC96A /* Views */,
+				1A0FC51A20E21972008CC96A /* AppDelegate.h */,
+				1A0FC51B20E21972008CC96A /* AppDelegate.m */,
+				1A0FC51D20E21972008CC96A /* ViewController.h */,
+				1A0FC51E20E21972008CC96A /* ViewController.m */,
+				1A0FC55220E22385008CC96A /* UIView+CreateUtils.h */,
+				1A0FC55120E22385008CC96A /* UIView+CreateUtils.m */,
+				1A0FC52320E21975008CC96A /* Assets.xcassets */,
+				1A0FC52820E21975008CC96A /* Info.plist */,
+				1A0FC52920E21975008CC96A /* main.m */,
+			);
+			path = SortDragListView;
+			sourceTree = "<group>";
+		};
+		1A0FC53220E21975008CC96A /* SortDragListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC53320E21975008CC96A /* SortDragListViewTests.m */,
+				1A0FC53520E21975008CC96A /* Info.plist */,
+			);
+			path = SortDragListViewTests;
+			sourceTree = "<group>";
+		};
+		1A0FC53D20E21975008CC96A /* SortDragListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC53E20E21975008CC96A /* SortDragListViewUITests.m */,
+				1A0FC54020E21975008CC96A /* Info.plist */,
+			);
+			path = SortDragListViewUITests;
+			sourceTree = "<group>";
+		};
+		1A0FC54C20E22236008CC96A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC55420E22C83008CC96A /* SortDragVC.h */,
+				1A0FC55520E22C83008CC96A /* SortDragVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1A0FC54D20E22236008CC96A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC54E20E2227F008CC96A /* EditListCell.h */,
+				1A0FC54F20E2227F008CC96A /* EditListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0FC51620E21972008CC96A /* SortDragListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0FC54320E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListView" */;
+			buildPhases = (
+				1A0FC51320E21972008CC96A /* Sources */,
+				1A0FC51420E21972008CC96A /* Frameworks */,
+				1A0FC51520E21972008CC96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortDragListView;
+			productName = SortDragListView;
+			productReference = 1A0FC51720E21972008CC96A /* SortDragListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A0FC52E20E21975008CC96A /* SortDragListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0FC54620E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListViewTests" */;
+			buildPhases = (
+				1A0FC52B20E21975008CC96A /* Sources */,
+				1A0FC52C20E21975008CC96A /* Frameworks */,
+				1A0FC52D20E21975008CC96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0FC53120E21975008CC96A /* PBXTargetDependency */,
+			);
+			name = SortDragListViewTests;
+			productName = SortDragListViewTests;
+			productReference = 1A0FC52F20E21975008CC96A /* SortDragListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A0FC53920E21975008CC96A /* SortDragListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0FC54920E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListViewUITests" */;
+			buildPhases = (
+				1A0FC53620E21975008CC96A /* Sources */,
+				1A0FC53720E21975008CC96A /* Frameworks */,
+				1A0FC53820E21975008CC96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0FC53C20E21975008CC96A /* PBXTargetDependency */,
+			);
+			name = SortDragListViewUITests;
+			productName = SortDragListViewUITests;
+			productReference = 1A0FC53A20E21975008CC96A /* SortDragListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0FC50F20E21972008CC96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "秦国华";
+				TargetAttributes = {
+					1A0FC51620E21972008CC96A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1A0FC52E20E21975008CC96A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1A0FC51620E21972008CC96A;
+					};
+					1A0FC53920E21975008CC96A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1A0FC51620E21972008CC96A;
+					};
+				};
+			};
+			buildConfigurationList = 1A0FC51220E21972008CC96A /* Build configuration list for PBXProject "SortDragListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0FC50E20E21972008CC96A;
+			productRefGroup = 1A0FC51820E21972008CC96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0FC51620E21972008CC96A /* SortDragListView */,
+				1A0FC52E20E21975008CC96A /* SortDragListViewTests */,
+				1A0FC53920E21975008CC96A /* SortDragListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0FC51520E21972008CC96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0FC52420E21975008CC96A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC52D20E21975008CC96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC53820E21975008CC96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0FC51320E21972008CC96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0FC51F20E21972008CC96A /* ViewController.m in Sources */,
+				1A0FC52A20E21975008CC96A /* main.m in Sources */,
+				1A0FC51C20E21972008CC96A /* AppDelegate.m in Sources */,
+				1A0FC55020E2227F008CC96A /* EditListCell.m in Sources */,
+				1A0FC55620E22C83008CC96A /* SortDragVC.m in Sources */,
+				1A0FC55320E22385008CC96A /* UIView+CreateUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC52B20E21975008CC96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0FC53420E21975008CC96A /* SortDragListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0FC53620E21975008CC96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0FC53F20E21975008CC96A /* SortDragListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0FC53120E21975008CC96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0FC51620E21972008CC96A /* SortDragListView */;
+			targetProxy = 1A0FC53020E21975008CC96A /* PBXContainerItemProxy */;
+		};
+		1A0FC53C20E21975008CC96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0FC51620E21972008CC96A /* SortDragListView */;
+			targetProxy = 1A0FC53B20E21975008CC96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0FC54120E21975008CC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A0FC54220E21975008CC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0FC54420E21975008CC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U63ULGHN6;
+				INFOPLIST_FILE = SortDragListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A0FC54520E21975008CC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U63ULGHN6;
+				INFOPLIST_FILE = SortDragListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A0FC54720E21975008CC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SortDragListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortDragListView.app/SortDragListView";
+			};
+			name = Debug;
+		};
+		1A0FC54820E21975008CC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SortDragListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortDragListView.app/SortDragListView";
+			};
+			name = Release;
+		};
+		1A0FC54A20E21975008CC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SortDragListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SortDragListView;
+			};
+			name = Debug;
+		};
+		1A0FC54B20E21975008CC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SortDragListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guohua.SortDragListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SortDragListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0FC51220E21972008CC96A /* Build configuration list for PBXProject "SortDragListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FC54120E21975008CC96A /* Debug */,
+				1A0FC54220E21975008CC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0FC54320E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FC54420E21975008CC96A /* Debug */,
+				1A0FC54520E21975008CC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0FC54620E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FC54720E21975008CC96A /* Debug */,
+				1A0FC54820E21975008CC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0FC54920E21975008CC96A /* Build configuration list for PBXNativeTarget "SortDragListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FC54A20E21975008CC96A /* Debug */,
+				1A0FC54B20E21975008CC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0FC50F20E21972008CC96A /* Project object */;
+}
